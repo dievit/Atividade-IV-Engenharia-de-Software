@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css" rel="stylesheet">
+</head>
+<body>
+  <img src="img/coverlarge.png" alt="cover" class="img-fluid">
+  <div class="container">
+    <div class="text-center">
+      <h2 class="text-center mt-4 mb-4">Cadastro dos pais</h2>
+    </div>
+    <form id="cadastroForm">
+      <div class="form-group">
+        <label for="nomePapai">Nome do Papai:</label>
+        <input type="text" class="form-control" id="nomePapai" name="nomePapai" required>
+      </div>
+      <div class="form-group">
+        <label for="emailPapai">E-mail do Papai:</label>
+        <input type="email" class="form-control" id="emailPapai" name="emailPapai" required>
+      </div>
+      <div class="form-group">
+        <label for="nomeMamae">Nome da Mamãe:</label>
+        <input type="text" class="form-control" id="nomeMamae" name="nomeMamae" required>
+      </div>
+      <div class="form-group">
+        <label for="emailMamae">E-mail da Mamãe:</label>
+        <input type="email" class="form-control" id="emailMamae" name="emailMamae" required>
+      </div>
+      <div class="form-group">
+        <label for="senha">Senha:</label>
+        <input type="password" class="form-control" id="senha" name="senha" required>
+      </div>
+      <div class="form-group">
+        <label for="confirmarSenha">Repetir Senha:</label>
+        <input type="password" class="form-control" id="confirmarSenha" name="confirmarSenha" required>
+      </div>
+      <div class="text-center mb-5">
+        <button type="submit" class="btn btn-primary">Confirmar</button>
+        <button type="button" class="btn btn-secondary" onclick="window.history.back();">Voltar</button>
+      </div>
+    </form>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
